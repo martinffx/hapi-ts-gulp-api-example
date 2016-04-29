@@ -1,0 +1,33 @@
+{
+  "name": "hapi-ts-gulp-api-example",
+  "version": "1.0.0",
+  "description": "Example app for an api written with hapi and typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/martinffx/hapi-ts-gulp-api-example"
+  },
+  "keywords": [
+    "hapi",
+    "typescript",
+    "gulp"
+  ],
+  "author": "Martin C. Richards",
+  "license": "MIT",
+  "devDependencies": {
+    "code": "^2.2.1",
+    "gulp": "^3.9.1",
+    "gulp-env": "^0.4.0",
+    "gulp-file-cache": "0.0.1",
+    "gulp-lab": "^1.0.6",
+    "gulp-nodemon": "^2.0.6",
+    "gulp-typescript": "^2.13.0",
+    "lab": "^10.3.2"
+  },
+  "dependencies": {
+    "hapi": "^13.3.0"
+  }
+}
